@@ -4,7 +4,7 @@ from src.analysis import plot_umap, perform_clustering, suggest_authors, create_
 def main():
     # Define the local path and the URL for the JSON file
     json_path = 'data/scientific-papers.json'
-    download_url = 'https://github.com/your-username/your-repo/releases/download/v1.0/scientific-papers.json'
+    download_url = 'https://github.com/Tornadosky/semantic-search/releases/download/v1/scientific-papers.json'
 
     # Load data (will download if not present)
     papers = load_papers(json_path, download_url)
