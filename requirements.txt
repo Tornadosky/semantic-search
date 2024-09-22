@@ -1,0 +1,9 @@
+requests
+pandas
+sentence-transformers
+umap-learn
+scikit-learn
+keybert
+wordcloud
+matplotlib
+numpy
